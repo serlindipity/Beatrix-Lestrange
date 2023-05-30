@@ -1,0 +1,224 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------Fonts Used--------------------*/
+@font-face {
+    font-family: 'harry potter';
+    src: url('../5 Fonts/HARRYP__.TTF');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'crimes of grindelwald';
+    src: url('../5 Fonts/Crimes of Grindelwald.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'wizard';
+    src: url('../5 Fonts/purple-3.ttf');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'hp icons';
+    src: url('../5 Fonts/harry_potter_and_the_dingbat_font.TTF');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/*--------------------Transitions-----------------------*/
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
+
+/*---------------------------------------Home Page----------------------------------------*/
+/* CSS design for Header */
+.transition {
+    animation: transitionIn 0.75s;
+}
+.header {
+    min-height: 780px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../../3 Images/commongryff.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation
+}
+.textbox{
+    margin-top: 65px;
+    width: 90%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.textbox h1 {
+    font-family: 'crimes of grindelwald';
+    font-size: 50px;
+    color: khaki;
+    text-shadow: -2px 2px 2px black;
+}
+.textbox h2 {
+    font-family: 'crimes of grindelwald';
+    color: #f2f3f7;
+    font-size: 40px;
+    margin: 15px 0 15px 15px;
+    text-shadow: -2px 2px 2px black;
+}
+.textbox p {
+    font-family: wizard;
+    color: #f2f3f7;
+    font-size: 25px;
+    margin: 15px 10% 10px;
+    padding: 10px 80px;
+    text-shadow: -2px 2px 2px black;
+}
+
+/*--------------------------SORTING HAT------------------------*/
+.sortinghat {
+    height: 780px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../../3 Images/sorting hat bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+.leftcol {
+    margin-left: 6%;
+    width: 50%;
+    position: absolute;
+}
+.leftcol img {
+    padding: 30px 10px;
+    margin-left: 5px;
+    float: left;
+    width: 95%;
+    height: auto;
+}
+.rightcol {
+    float: right;
+    flex-basis: 50%;
+    min-width: 300px;
+    margin: 10% 6% 3% 50%;
+}
+.rightcol h1 {
+    font-family: 'crimes of grindelwald';
+    font-size: 30px;
+    color: khaki;
+    text-shadow: -2px 2px 2px black;
+    text-align: center;
+    margin: 0 10% 10px 15%; /*top, right, bottom, left*/
+}
+.rightcol p {
+    font-family: wizard;
+    color: #f2f3f7;
+    font-size: 25px;
+    margin: 15px 10% 10px;
+    padding: 10px;
+    text-shadow: -2px 2px 2px black;
+    text-align: left;
+}
+.startbutton {
+    text-decoration: none;
+    position:absolute;
+    color: #f2f3f7;
+    border: 1px solid #f2f3f7;
+    border-radius: 25px;
+    padding: 12px 35px;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+    font-family: wizard;
+    margin: 2% 2% 5% 16%;
+}
+.startbutton:hover {
+    border: 1px solid darkslategrey;
+    background-color: darkslategrey;
+    color: khaki;
+    transition: 1s;
+}
+.pagecontentimg {
+    width: 250px;
+    margin: 10px auto 20px;
+    display: block;
+    position: relative;
+    justify-content: center;
+}
+
+/*--------------------------LAST SECTION------------------------*/
+.last {
+    height: 775px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../../3 Images/gryfcong.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+.last h1 {
+    padding-top: 100px;
+    font-family: 'Harry P';
+    font-size: 150px;
+    color: khaki;
+    text-shadow: -2px 2px 2px black;
+    text-align: center;
+}
+.choice {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20%;
+}
+.choicecol {
+    background-color: transparent;
+    align-content: center;
+    width: 450px;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: rgba(0,0,0,0.6);
+}
+.choicecol:hover {
+    box-shadow: none;
+}
+.choicecol h2{
+    font-family: wizard;
+    font-size: 20px;
+    color: #f2f3f7;
+    text-align: center;
+    text-shadow: -2px 2px 2px black;
+}
+.choicecol img {
+    width: 90%;
+    margin-top: 150px;
+    padding-left: 50px;
+    display: block;
+    position: relative;
+}

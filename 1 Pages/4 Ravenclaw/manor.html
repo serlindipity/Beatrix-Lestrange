@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Two | The Potion Class</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/4 Ravenclaw/manor.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Two | The Malfoy Manor</p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/manorvideo.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+            <div class="pagecontentxt">
+                <p>
+                    open my eyes and saw Draco sitting in the dining hall. He’s my cousin and very close to me, like a brother.
+                </p>
+                <p>
+                    <b>“Beatrix, c’mon now. I’m almost done with my sandwich. Are you done already?” </b> He shouted and said. I looked at him confusedly
+                </p>
+                <p>
+                    <b>“What are you talking about? Are we going somewhere or anything? I can’t remember that we have plans for today.” </b>  I asked
+                </p>
+                <img class="pagecontentimg1" src="../../3 Images/goyle.png" />
+                <p>
+                    <b>
+                        “Bea, I told you a hundred times, we are going to Boyle’s birthday party celebration today, right? He is one of my minions. He asked me to bring you as well since lately you’ve been so
+                        immersed with your books. Anyways, everybody’s coming too. So better get dressed already.”
+                    </b> He sighed and replied, then he gulped his drink and stood up.
+                </p>
+                <img class="pagecontentimg" src="../../3 Images/malfoy.png" />
+                <p>
+                    <b>“But Draco we need to study for the upcoming entrance exams in Hogwarts tomorrow, remember? We need to pass the exam for admission.”</b> I said, but he laughed at me saying
+                </p>
+                <p>
+                    <b> “Do you really think I care about that? Besides, Boyle said that we can use any quill we like for the exam, which means? We can buy a self-answering quill to answer the exams for you and me. What’s there to lose?”</b>
+                    He showed me his smug face, grinning triumphantly. I sighed looking at my cousin.
+                </p>
+                <p>
+                    He rarely takes things seriously because uncle Lucius is powerful enough to save him all the time. But on the other hand, he’s right. I can just trash my book and have fun with him. Should I go with him then?
+                </p>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <h1>Choose the right decision and let it be your direction</h1>
+            <div class="choice">
+                <div class="choicecol">
+                    <h2>Go with Draco to the party. It’s okay since Draco can give you a self-answering quill to answer the entrance exam for you. What’s there to lose?</h2>
+                    <a href="../../1 Pages/4 Ravenclaw/manorB.html"><img src="../../3 Images/party.png" /></a>
+                </div>
+
+                <div class="choicecol">
+                    <h2>No, stay at home and study. Cheating is never an option for you. You’d rather stay at home and study to be productive. </h2>
+                    <a href="../../1 Pages/4 Ravenclaw/manorA.html"><img src="../../3 Images/study.png" /></a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/Epic Music _ Royal _ Echo of Horns Throughout the Castle (Horn of the Royal Palace).mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+
+    </script>
+</body>
+</html>

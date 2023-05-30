@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Three | Goyle's Party</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/4 Ravenclaw/manorB.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Three | Goyle's Party </p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/partyvideo.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/lettera.png" />
+            <div class="pagecontentxt">
+                <p>
+                    fter a few seconds of contemplation, I’ve decided to join Draco and celebrate Goyle’s party with them.
+                </p>
+                <img class="pagecontentimg" src="../../3 Images/bouncer.png" />
+                <p>
+                    We hurried down to the venue, we saw two big men standing outside, which I think are night club’s bouncers. Draco parked the car in a clear space, then we walked over to the entrance.
+                </p>
+                <p>
+                    <b>“Password?” </b> said one of the bouncers sternly.
+                </p>
+                <p>
+                    <b>“Adjezz apro krutum” </b> I answered while smirking. Draco and I often chill in this club so I already know the password.
+                </p>
+                <p>
+                    Once we got in, we were instantly hounded with the sound of our favorite genre of music. There was hip hop, R n B and dance blaring out of the DJ system on stage.
+                    We could see hundreds of witches and wizards. Auror graduates of this year were here, Quidditch teams, and other familiar faces.
+                </p>
+                <img class="pagecontentimg2" src="../../3 Images/bea.png" />
+                <img class="pagecontentimg" src="../../3 Images/goyleparty.png" />
+                <p>
+                    <b>“Draco, Bea! so glad you could make it.” </b> said Goyle, clamping a hand on Draco’s shoulder.
+                </p>
+                <p>
+                    <b>“Yeah, tho Bea almost backed out telling me that she’ll go study instead” </b> said Draco
+                </p>
+                <p>
+                    <b>"What a nice joke, Bea" </b> said Goyle, and the both of them laugh together
+                </p>
+                <p>
+                    <b>“Heeey! I was just worried I’ll be a failure like you two” </b> I rolled my eyes, and said as my defense
+                </p>
+                <p>
+                    <b>“Yeah right, you could worry later, but now let’s go and enjoy the party all night!!!” </b> said Draco, as he excitedly hit the dance floor
+                </p>
+                <p>
+                    <b>“That’s mah man! I have reserved you two a space in the VIP section. You can have all the drinks you want, it’s on me” </b> said Goyle.
+                </p>
+                <img class="pagecontentimg3" src="../../3 Images/drinks.png" />
+                <p>
+                    Then we went to the VIP Section, and became the life of the party. A lot of Draco’s friends are there. All of them smiled and greeted us as, and we have fun together.
+                </p>
+                <p>
+                    It was fun, elegant and exhilarating. I was enjoying myself so much, as if it’s the last night of my life.
+                </p>
+                <p>
+                    <b>“Dang! This feels hella good. Just chilling with every witch and wizards of my age.”</b> I thought to myself
+                </p>
+                <p>
+                    And just like Goyle said, we drink all the drinks that we can. I’m so wasted, but this feels good! It’s worth it than studying! …right?
+                </p>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <div class="choice">
+                <div class="choicecol">
+                    <a href="../../1 Pages/4 Ravenclaw/manorBclass.html"><img src="../../3 Images/continue.png" /></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/POV - you go to a Slytherin party (VERY realistic; talking, background noise, 8D audio).mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+    </script>
+</body>
+</html>

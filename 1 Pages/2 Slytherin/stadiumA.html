@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Three | Sacrifices </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/2 Slytherin/stadiumA.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Three | Sacrifices <p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/Harry Potter_ Magic Awakened -  Quidditch Mode Trailer.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/lettera.png" />
+            <img class="pagecontentimg1" src="../../3 Images/snitch.gif" />
+            <div class="pagecontentxt">
+                <p>
+                    fter contemplating, I looked back at the snitch that I was chasing with the opposing team, he almost had it in his grasped so I decided to kicked his broom and send him off
+                    balance.
+                </p>
+                <p>
+                    The crowd roared, cheering for me. It was the best feeling in the world. It fueled my urge to win. With one more switch motion, I grab the snitch with all my might, then the whistle blew.
+                    I feel like I was floating in the air after that intense battle for the snitch.
+                </p>
+                <p>
+                    Everyone was cheering for me. I looked around and saw my teammates screaming from the top of their lungs cheering for victory.
+                </p>
+                <img class="pagecontentimg3" src="../../3 Images/crowd.png" />
+                <p>
+                    I was congratulated with my team and awarded as the champion.
+                    The captain handed me a golden snitch in a bracelet.
+                </p>
+                <p>
+                    <b>“Here newbie. because of your thirst and ambition for victory, we won the game. I hope you’d continue to be in your best behavior for the sake of the house. Congratulations.” </b> He said
+                </p>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <h1>Click and Accept the Necklace</h1>
+            <div class="choice">
+                <div class="choicecol">
+                    <h2>The Golden Snitch Necklace, a remembrance of your thirst and ambition for victory. </h2>
+                    <a href="../../1 Pages/2 Slytherin/Slytherin.html"><img src="../../3 Images/stnecklace.png" /></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/[HOGWARTS SHIFTING] youre in a quidditch match - Slytherin vs. Griffindor.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+    </script>
+</body>
+</html>

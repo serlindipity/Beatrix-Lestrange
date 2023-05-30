@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Three | Saving the Man </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/1 Gryffindor/forbiddenA.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+        <div class="header">
+            <nav>
+                <div class="homebutton">
+                    <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+                </div>
+                <div class="chaptertitle">
+                    <p>Chapter Three | Saving the Man</p>
+                </div>
+                <div class="pbutton">
+                    <img src="../../3 Images/play.png" id="volIcon" />
+                </div>
+            </nav>
+
+            <section class="pagecontent">
+                <video width="500" controls>
+                    <source src="../../6 Videos/forestvideo.mp4" type="video/mp4" />
+                </video>
+                <img class="pagecontentletter" src="../../3 Images/lettera.png" />
+                <img class="pagecontentimg1" src="../../3 Images/saved.png" />
+                <div class="pagecontentxt">
+                    <p>
+                    <p>
+                        fter I looked inside the hat, a sword shinning bright as diamonds fell to the ground.
+                    </p>
+                    <p>
+                        It’s beautiful and mesmerizing. I heard the monster grunt with the sight of it.
+                    </p>
+                    <p>
+                        I grabbed the sword and swing it forcefully towards the monster. It screamed in pain and slowly vanished to the abyss.
+                    </p>
+                    <p>
+                        I helped the old man to his feet. He was weak and trembling. He slowly opened his eyes and smiled at me.
+                    </p>
+                    <img class="pagecontentimg2" src="../../3 Images/sword.png" />
+                    <p>
+                        <b>
+                            “You are a very brave girl, my child. You’ve proven yourself worthy of the sword that it presented itself to you when you’re in need. Thank you for saving me.
+                        </b>
+                    </p>
+                    <p>
+                        <b> "Here is my little token to you. The resurrection stone necklace. Keep it. As a remembrance of your bravery.”</b> After saying this he presented me a necklace with a red stone pendant.
+                    </p>
+                </div>
+            </section>
+            <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+            <section class="choicesection">
+                <h1>Click and Accept the Necklace</h1>
+                <div class="choice">
+                    <div class="choicecol">
+                        <h2>The Resurection Stone necklace, a remembrance of your bravery & victory. </h2>
+                        <a href="../../1 Pages/1 Gryffindor/Gryffindor.html"><img src="../../3 Images/gfnecklace.png" /></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <audio id="bgsong">
+            <source src="../../4 Audio/Sucker Punch - Samurai Fight Scene - HD 1080p.mp3" type="audio/mp3" />
+        </audio>
+        <script>
+            var bgsong = document.getElementById("bgsong");
+            var icon = document.getElementById("volIcon");
+            icon.onclick = function () {
+                if (bgsong.paused) {
+                    bgsong.play();
+                    volIcon.src = "../../3 Images/pause.png";
+                }
+                else {
+                    bgsong.pause();
+                    volIcon.src = "../../3 Images/play.png"
+                }
+            }
+        </script>
+
+</body>
+</html>

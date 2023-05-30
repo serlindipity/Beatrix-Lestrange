@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Three | Running for your Life </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/1 Gryffindor/forbiddenB.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+        <div class="header">
+            <nav>
+                <div class="homebutton">
+                    <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+                </div>
+                <div class="chaptertitle">
+                    <p>Chapter Three | Running for you Life</p>
+                </div>
+                <div class="pbutton">
+                    <img src="../../3 Images/play.png" id="volIcon" />
+                </div>
+            </nav>
+
+            <section class="pagecontent">
+                <video width="500" controls>
+                    <source src="../../6 Videos/forestvideo.mp4" type="video/mp4" />
+                </video>
+                <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+                <div class="pagecontentxt">
+                    <p> looked over the hat and the monster in front of me then back to the hat.</p>
+                    <img class="pagecontentimg" src="../../3 Images/dementor.png" />
+                    <p>
+                        With the looks of the old man struggling and the quality of his rugged hat, he must be poor and whatever it is in the hat might be useless anyway,
+                        In what possible asset can a poor man afford right?
+                    </p>
+                    <p>
+                        So, I decided to turned around and run away.
+                    </p>
+                    <p>
+                        However, the monster noticed me the moment my foot landed on the ground.
+                    </p>
+                    <p>
+                        I decided to run and run as fast as I could but the monster got close to me and scratched me with its claws impairing me. I tried to crawl but it’s too late.
+                    </p>
+                    <h1>The End</h1>
+                </div>
+            </section>
+            <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+            <section class="choicesection">
+                <h1>If you're not satisfied with this path, you can</h1>
+                <div class="choice">
+                    <div class="choicecol">
+                        <a href="../../1 Pages/1 Gryffindor/forbidden.html"><img src="../../3 Images/reflect.png" /></a>
+                    </div>
+
+                    <div class="choicecol">
+                        <a href="../../1 Pages/The Sorting Hat.html"><img src="../../3 Images/other.png" /></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <audio id="bgsong">
+            <source src="../../4 Audio/yt1s.com - The Dementors Converge.mp3" type="audio/mp3" />
+        </audio>
+        <script>
+            var bgsong = document.getElementById("bgsong");
+            var icon = document.getElementById("volIcon");
+            icon.onclick = function () {
+                if (bgsong.paused) {
+                    bgsong.play();
+                    volIcon.src = "../../3 Images/pause.png";
+                }
+                else {
+                    bgsong.pause();
+                    volIcon.src = "../../3 Images/play.png"
+                }
+            }
+        </script>
+
+</body>
+</html>

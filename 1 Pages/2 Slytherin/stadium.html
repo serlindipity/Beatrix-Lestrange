@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Two | The Quidditch Stadium</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/2 Slytherin/stadium.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Two | The Quidditch Stadium</p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/Harry Potter_ Magic Awakened -  Quidditch Mode Trailer.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+            <div class="pagecontentxt">
+                <p>
+                    opened my eyes and saw all the people filled the whole stadium. I heard the roaring cheers and the battle cry of the students, screaming in the top of their lungs saying
+                    GRYFFINDOR, SLYTHERIN, HUFFLEPUFF AND RAVENCLAW.
+                </p>
+                <p>
+                    While I was so immersed in the cheers of the students, someone tapped me from the back saying
+                </p>
+                <p>
+                    <b>“Hey, newbie get moving. It’s time already. Remember, you need to get that golden snitch. N-O M-A-T-T-E-R W-H-A-T.” </b> I looked up and saw this weird looking guy. It says captain in his shirt.
+                </p>
+                <p>
+                    <b>“What? What? Why me? what should I do?”</b> I responded anxiously. He angrily stomps his foot on the ground and lift me by my shirt saying
+                </p>
+                <p>
+                    <b>“Are you stupid? All you have to do is to find that golden flying ball with wings called snitch in order for the team to WIN, okay?” </b>I nodded fiercely in order to avoid eye contact with him. He looked at me intently
+                    before putting me down then proceeds to walk towards the field.
+                </p>
+                <img class="pagecontentimg1" src="../../3 Images/quidditch team.jfif" />
+                <p>
+                    I gathered my thoughts and walked towards the field as well. I never had a chance to play this game but I know how this works I guess, based on what I saw on the TV. I just pray to the heavens that I may not break my neck in the process.
+                    I wanted to win so badly too but can I pull it off?
+                </p>
+                <img class="pagecontentimg" src="../../3 Images/snitch.gif" />
+                <p>
+                    The game started after the whistle blow of the referee. I tapped my broom to command it to fly. The game was so intense. Until the tie breaker came, I need to find the snitch to assure my teams victory. Everyone was signaling me to do my job.
+                    I collected myself and focus, roaming around the field to spot that ball.
+                </p>
+                <p>
+                    Finally, I found that golden flying ball thingy that the captain used to describe. I set my eyes on it and chased the ball with all my might then suddenly, a storm of students chases after me as well, wanting the snitch too. We chased around the field,
+                    toils and turns until I was finally joined by my teammates as well.
+                </p>
+                <p>
+                    <b>“DON’T LET THAT SNITCH GET AWAAAY. WE HAVEE TO WIN. WE GOT THIS. Now GO! GO! GO!”</b> My captain shouted. I nodded and I chase after it not letting it out of my sight. When the snitch is almost at my grasp, I heard a loud bang from the back. It was one of my teammates.
+                    He was smacked out of his broom and fell. I don't know what to do, should I go save him?'
+                </p>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <h1>Choose the right decision and let it be your direction</h1>
+            <div class="choice">
+                <div class="choicecol">
+                    <h2>No. His sacrifices must not be in vain. We have to win. </h2>
+                    <a href="../../1 Pages/2 Slytherin/stadiumA.html"><img src="../../3 Images/win.png" /></a>
+                </div>
+
+                <div class="choicecol">
+                    <h2>Yes. He might be badly hurt. I need to save my teammate. </h2>
+                    <a href="../../1 Pages/2 Slytherin/stadiumB.html"><img src="../../3 Images/lose.png" /></a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/[HOGWARTS SHIFTING] youre in a quidditch match - Slytherin vs. Griffindor.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+
+    </script>
+</body>
+</html>

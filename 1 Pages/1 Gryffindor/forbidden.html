@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Two | The Forbidden Forest</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/1 Gryffindor/forbidden.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+        <div class="header">
+            <nav>
+                <div class="homebutton">
+                    <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+                </div>
+                <div class="chaptertitle">
+                    <p>Chapter Two | The Forbidden Forest</p>
+                </div>
+                <div class="pbutton">
+                    <img src="../../3 Images/play.png" id="volIcon" />
+                </div>
+            </nav>
+            <section class="pagecontent">
+                <video width="500" controls>
+                    <source src="../../6 Videos/forestvideo.mp4" type="video/mp4" />
+                </video>
+                <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+                <div class="pagecontentxt">
+                    <p>
+                        opened my eyes in the Forbidden Forest. It was cold and moist. I stood up to find my balance, when I heard a loud cry.
+                    </p>
+                    <p>
+                        <b>“HEEEEELPPPPP!!! Pleaseeee help me.”</b> I rushed to find the person screaming.
+                    </p>
+                    <img class="pagecontentimg" src="../../3 Images/man.jpg" />
+                    <div class="pagecontentxt">
+                        <p>
+                            As soon as I find the old man, a horrifying monster is attacking him. It looks like a lifeless creature that is sucking the life out of him. It terrifies me straight to the bones. This is the same monster I saw in
+                            one of my dreams at night.
+                        </p>
+                        <p>
+                            He signaled me to help him with the little strength he had left. After a few tugs and fight with the monster, his body was lifted up to the air and a shadow is sucked from his mouth as he
+                            lifelessly floats.
+                        </p>
+                        <p>
+                            I panicked. I am so scared. Bloody hell. Is this real? I slapped my face a few times to checked yet nothing happened. I decided to look around hoping to find something that can destroy the monster.
+                            Until, I saw an old looking rugged hat from the bushes beside the alley way, this must be from the old man. I saw a shining object inside the hat, this may be able to defeat the monster.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+            <section class="choicesection">
+                <h1>Choose the right decision and let it be your direction</h1>
+                <div class="choice">
+                    <div class="choicecol">
+                        <h2>Use what’s inside the hat, and save the old man</h2>
+                        <a href="../../1 Pages/1 Gryffindor/forbiddenA.html"><img src="../../3 Images/sort&sword.png" /></a>
+                    </div>
+
+                    <div class="choicecol">
+                        <h2>Run for your life. The hat is useless anyway</h2>
+                        <a href="../../1 Pages/1 Gryffindor/ForbiddenB.html"><img src="../../3 Images/run.png" /></a>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <audio id="bgsong">
+            <source src="../../4 Audio/yt1s.com - The Dementors Converge.mp3" type="audio/mp3" />
+        </audio>
+        <script>
+            var bgsong = document.getElementById("bgsong");
+            var icon = document.getElementById("volIcon");
+            icon.onclick = function () {
+                if (bgsong.paused) {
+                    bgsong.play();
+                    volIcon.src = "../../3 Images/pause.png";
+                }
+                else {
+                    bgsong.pause();
+                    volIcon.src = "../../3 Images/play.png"
+                }
+            }
+        </script>
+</body>
+</html>

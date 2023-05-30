@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter One | The Sorting Hat Ceremony</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../2 Stylesheets/The Sorting Hat.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+        <div class="header">
+            <nav>
+                <div class="homebutton">
+                    <a href="index.html"><img src="../3 Images/Home.png" /></a>
+                </div>
+                <div class="chaptertitle">
+                    <p>Chapter One | The Sorting Hat Ceremony</p>
+                </div>
+                <div class="pbutton">
+                    <img src="../3 Images/play.png" id="volIcon" />
+                </div>
+            </nav>
+            <section class="pagecontent">
+                <video width="600" controls>
+                    <source src="../6 Videos/yt1s.com -  SORTING HAT SONG  Harry Potter Magic Awakaned_v720P.mp4" type="video/mp4" />
+                </video>
+                <img class="pagecontentletter" src="../3 Images/lettert.png" />
+                <div class="pagecontentxt">
+                    <p>
+                        he sorting hat ceremony is about to begin wherein the new students are sorted to different houses before the welcoming ceremony to get
+                        acquainted to their houses. The line of new students was instructed on how the ceremony would proceed. Beatrix was so immersed with her thought when the Sorting Hat started singing.
+                    </p>
+                    <p>
+                        <b>"Beatrix Lestrange."</b> Professor finally called, making Beatrix jump in surprise. She walked to the room, sitting on the chair comfortably facing a mirror. Professor put the hat on her and smiled reassuringly.
+                    </p>
+                    <p>
+                        <b>"Ah! What a strange, it's a Lestrange!"</b> The hat shouted, making the little girl jump again, startled.
+                    </p>
+                    <p>
+                        <b>"Hmm..." </b>It hummed, deeply thinking as it browsed into Beatrix's mind.
+                    </p>
+                    <p>
+                        <b>"A brave girl, indeed, but also cunning and very sly. Loyal to her friends and family, well, not that kind but still... and not that bad of a brain."</b>
+                    </p>
+                    <p>
+                        <b>
+                            "Should I put you to Slytherin, where most of the Lestrange are put... or should I make a change and put you to Gryffindor, where your brave heart shall reign? Or perhaps in Hufflepuff where you'll stay just
+                            and loyal? Or maybe Ravenclaw where you'll be able to practice and maintain your wit and learning? Well, let's see... It should be..."
+                        </b> The sorting hat confusedly ask itself
+                    </p>
+                    <p>
+                        <b>"What!? You're just tossing me anywhere? This is no fair! Don't I have any say about this?" </b> Beatrix frowned.
+                    </p>
+                    <p>
+                        <b>"Oh, Alright then!!! It should be your decision to make!"</b> The sorting hat exclaimed. The professor was shocked hearing it from the hat.
+                    </p>
+                    <p>
+                        <b>"Strange isn't it? The first of her kind. A Lestrange will be able to decide, which house does she belongs inside? Confident Child, pick one amongst all, the house that speaks through your soul."</b>
+                        after the Sorting Hat spoke these phrases it instructed Beatrix what she needs to do next.
+                    </p>
+                    <p>
+                        <b>
+                            "Open thy eyes and ye shall not blink, to empty your mind and think, discover what needs to be discovered, but be careful for it might make you overpowered.
+                            Decide & make a choice, let the house speak and hear thy voice"
+                        </b>
+                    </p>
+                </div>
+            </section>
+            <section class="choicesection">
+                <h1>Choose and make up your mind. follow thy heart and the right path ye shall find!</h1>
+                <div class="choice">
+                    <div class="choicecol">
+                        <h2>Forbidden Forest</h2>
+                        <a href="../1 Pages/1 Gryffindor/forbidden.html"><img src="../3 Images/ch1.png" /></a>
+                    </div>
+
+                    <div class="choicecol">
+                        <h2>Quidditch Stadium</h2>
+                        <a href="../1 Pages/2 Slytherin/stadium.html"><img src="../3 Images/ch2.png" /></a>
+                    </div>
+
+                    <div class="choicecol">
+                        <h2>Potion Class</h2>
+                        <a href="../1 Pages/3 Hufflepuff/potion.html"><img src="../3 Images/ch3.png" /></a>
+                    </div>
+
+                    <div class="choicecol">
+                        <h2>Malfoy Manor</h2>
+                        <a href="../1 Pages/4 Ravenclaw/manor.html"><img src="../3 Images/ch4.png" /></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <audio id="bgsong">
+        <source src="../4 Audio/The Sorting Hat Lyrics - Harry Potter Song (RiddleTM).mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../3 Images/play.png"
+            }
+        }
+
+    </script>
+</body>
+</html>

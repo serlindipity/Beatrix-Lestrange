@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Beatrix Lestrange | The Journey to Destiny</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="2 Stylesheets/index.css" rel="stylesheet" /> <!-- connects to css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="transition">
+        <section class="header">
+            <div class="textbox">
+                <h1>Beatrix Lestrange</h1>
+                <h2>The Journey to Destiny</h2>
+                <p>
+                    This Story is inspired by the Sorting Hat Ceremony from the movie Harry Potter
+                    & the Philosopher's stone. Beatrix Lestrange is going to attend Hogwarts School of
+                    Witchcraft and Wizardry for the upcoming School Year. She's known as the daughter of
+                    a merciless murderer, Bellatrix Lestrange. In Hogwarts, every first-year student
+                    shall be sorted to their designated houses by the sorting hat's judgment, but what
+                    happens if the sorting hat gives her a situation instead and lets Beatrix make her
+                    own choices? Would she still be able to enter Slytherin, where she can make real
+                    friends with the cunning folk that uses any means to achieve their ends? Or she might
+                    now belong in Gryffindor, where dwell the brave at heart, they're daring, nerve and
+                    chivalry set Gryffindors apart; She might also belong in Hufflepuff, Where witches &
+                    wizards are just and loyal, those patient Hufflepuffis are true And unafraid of toil;
+                    Or perhaps in wise old Ravenclaw, if she has a ready mind, those of wit and learning
+                    will always find their kind.
+                </p>
+            </div>
+        </section>
+
+        <section class="sortinghat">
+            <div class="leftcol">
+                <img src="3 Images/sort.png" />
+            </div>
+            <div class="rightcol">
+                <h1>Instructions: </h1>
+                <p>
+                    This Story is non-linear, therefore the reader has a choice over where the narrative goes next. Every Choice Has consequences.
+                    Pick one amongst all, and you'll prove worthy of them all. Are you ready to get sorted? Let's begin now and get started.
+                </p>
+                <p>
+                    <i>
+                        To make your reading experience better, enable the audio and the video in the next pages by clicking their play & pause button.
+                    </i>
+                </p>
+
+                <a href="1 Pages/The Sorting Hat.html" class="startbutton">Start Reading</a>
+            </div>
+        </section>
+
+        <section class="slider">
+            <div class="text">
+                <h1>Introducing the Characters</h1>
+                <p>
+                    These are the Main Characters of the Story. To go to the next image, drag your cursor to the images, and swipe it to the left side.
+                </p>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url('3 Images/1.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/2.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/3.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/4.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/5.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/6.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/7.gif')"></div>
+                    <div class="swiper-slide" style="background-image:url('3 Images/8.gif')"></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                loop: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+    </div>
+
+    <iframe style="display: none" width="560" height="315" src="https://www.youtube.com/embed/Htaj3o3JD8I?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

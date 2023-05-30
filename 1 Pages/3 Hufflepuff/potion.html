@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Two | The Potion Class</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/3 Hufflepuff/potion.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Two | The Potion Class</p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/potionvideo.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+            <div class="pagecontentxt">
+                <p>
+                    opened my eyes and saw fellow students beside me talking and laughing. I look around the room and realized I'm in a potion class. We were given cauldrons, mortar and pestle, a spoon and different herbs. I saw the professor was in.
+                    He has long black hair and a very grumpy face. He instructed the class about what potion to do and that whoever makes the most accurate copy of the potion would receive a reward as well as their house. He said that we need a lot of
+                    pre-made potion for the winter. Everyone roared and screamed because of the news. All of them were eager to win the reward set by the professor.
+                </p>
+                <p>
+                    I was looking intently at the ingredients in front of me. It’s a mix of wild berries, sage, sandalwood, cinnamon, mud beak wood, mandrake root, bicorn horn, ash winder egg, squill bulb, horseradish, thyme and purple glittery
+                    looking liquid. All of them smelled so wonderful except for the mandrake root, the horn and the egg, however, I have no spells or charm that can bind them all.
+                </p>
+                <img class="pagecontentimg1" src="../../3 Images/snape.png" />
+                <p>
+                    <b>“I don’t even have the slightest idea about what potion we are instructed to make. This is my first time to make a potion I don’t even know if I can make it.” </b>I thought to myself.
+                </p>
+                <p>
+                    <b>“Beatrix Lestrange, what are you doing there? Standing lifelessly in front of your cauldron. Don’t you know how to read? I already put up a set of instructions to make a potion. Move! Don’t just stand there”  </b>
+                    As if on cue, the long-haired grumpy professor called me. I nodded in response and gathered the papers in front of me.
+                </p>
+                <img class="pagecontentimg" src="../../3 Images/ingredients.png" />
+                <p>
+                    <b>“Ugh, this is so embarrassing. I was caught anxiously daydreaming in class.”</b> I sigh and said to myself. I opened the instruction manual that the professor gave us and collected myself. I’ve read the instruction that says:
+                </p>
+                <p>
+                    <b>
+                        “This isn’t right. Adding 2 mandrake root would make it bitter and less appealing. Heating the medium for 50 seconds would over-cook the bicorn horn. It’s easier to cook since it is pre-crushed already. Hmmm. There’s something wrong.”
+                    </b> I thought to myself as I contemplate on the manual.
+                </p>
+                <p>
+                    <b>“Beatrix Lestrange. For the second time around, I said MOVE! We don’t have all the time to wait for you. All of your classmates are almost done.” </b>Said the professor.
+                </p>
+                <p>
+                    <b>“But I-I-Uhm- something- is.”</b> I was interrupted by the professor
+                </p>
+                <p>
+                    <b>“No buts or ifs or else, get out of my classroom.”</b> He said.
+                </p>
+                <p>
+                    <b>“I’m sorry professor. I’ll get going.” </b>I gulped and answered, but he just rolled his eyes at me and instructed me to start. What should I do?
+                </p>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <h1>Choose the right decision and let it be your direction</h1>
+            <div class="choice">
+                <div class="choicecol">
+                    <h2>Go on. Do as what your professor told you. This is his manual anyways</h2>
+                    <a href="../../1 Pages/3 Hufflepuff/potionB.html"><img src="../../3 Images/follow.png" /></a>
+                </div>
+
+                <div class="choicecol">
+                    <h2>Follow your instincts and explain to your professor later on</h2>
+                    <a href="../../1 Pages/3 Hufflepuff/potionA.html"><img src="../../3 Images/instincts.png" /></a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/ASMR - Snape's Potions Class - (Harry Potter ambience).mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+
+    </script>
+</body>
+</html>

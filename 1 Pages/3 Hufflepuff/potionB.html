@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Three | The Results</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/3 Hufflepuff/potionB.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Three | The Results </p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/potionvideo.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+            <div class="pagecontentxt">
+                <p>
+                    ’ve decided to just do whatever. I mean, why would he do that purposely right? I also don’t have the energy to even exert more effort for today and defend myself.
+                    So, I decided to follow the manual set-up for our activity today.
+                </p>
+                <p>
+                    I was one of the last students to finish up and called up to be evaluated. The professor called me in front with my pepper-up potion
+                </p>
+                <p>
+                    <b>“Beatrix Lestrange, come forth.” </b> He said. I nodded and walked down to his table
+                </p>
+                <img class="pagecontentimg" src="../../3 Images/snapedis.png" />
+                <p>
+                    <b>“Same as the other, so disappointing.”</b> He said after scooping a spoon from my potion
+                </p>
+                <p>
+                    I looked at him confusedly, so many thoughts are running inside my head, Is this for real?
+                </p>
+                <p>
+                    <b>“Classed dismissed. None of you had the accurate copy of the potion I asked you to make. Now leave.” </b> He silently contemplated and announced.
+                </p>
+                <p>
+                    <b>“I think your judgment is wrong, professor.” </b> I asked as I walk towards him, and intently looked at him.
+                </p>
+                <p>
+                    <b>
+                        ”Beatrix Lestrange, you lack the very talent in potion making. You lack the judgement and appreciation of potion making that’s why you decide to go with whatever floats in your bonkers.
+                        I am very disappointed at you, young lady.”
+                    </b> He replied. I stood up to him saying
+                </p>
+                <img class="pagecontentimg1" src="../../3 Images/felix.png" />
+                <p>
+                    <b>“You were the one who gave us the wrong mix of instructions for the potions, professor.” </b> I replied, but he just let out a sigh saying
+                </p>
+                <p>
+                    <b>
+                        “It’s a test, young lady. To see one’s ability in a simple potion making. Being in the house of Hufflepuff means that you are instinctively inclined with potions, food and hard-work;
+                        which you clearly did not showed-off in this activity.”
+                    </b> He took his bag and gave me a disapproving look.
+                </p>
+                <p>
+                    <b>“You know, you can’t make yourself as someone who you’re not. It’s disgusting to look pathetic.” </b> After that he left me contemplating with myself.
+                    <h1>The End</h1>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <h1>If you're not satisfied with this path, you can</h1>
+            <div class="choice">
+                <div class="choicecol">
+                    <a href="../../1 Pages/3 Hufflepuff/potion.html"><img src="../../3 Images/reflect.png" /></a>
+                </div>
+
+                <div class="choicecol">
+                    <a href="../../1 Pages/The Sorting Hat.html"><img src="../../3 Images/other.png" /></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/ASMR - Snape's Potions Class - (Harry Potter ambience).mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+    </script>
+</body>
+</html>

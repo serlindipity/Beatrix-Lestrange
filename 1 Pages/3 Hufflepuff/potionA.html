@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter Three | The Results </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="../../2 Stylesheets/3 Hufflepuff/potionA.css" rel="stylesheet" /> <!-- connects to css-->
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="homebutton">
+                <a href="../../1 Pages/index.html"><img src="../../3 Images/Home.png" /></a>
+            </div>
+            <div class="chaptertitle">
+                <p>Chapter Three | The Results</p>
+            </div>
+            <div class="pbutton">
+                <img src="../../3 Images/play.png" id="volIcon" />
+            </div>
+        </nav>
+
+        <section class="pagecontent">
+            <video width="500" controls>
+                <source src="../../6 Videos/potionvideo.mp4" type="video/mp4" />
+            </video>
+            <img class="pagecontentletter" src="../../3 Images/letteri.png" />
+            <div class="pagecontentxt">
+                <p>
+                    ’ve decided to follow my instincts and add only one mandrake root and heat it for 10 seconds to preserve the herbs and avoid over-cooking it. I proceed with my potion and hope for the best.
+                </p>
+                <p>
+                    <b>“Beatrix Lestrange, come forth.” </b> I was one of the last students to finish up and called up to be evaluated. The professor called me in front with my pepper-up potion.
+                </p>
+                <p>
+                    I nodded and walked down to his table. He scoops a spoon from my potion and he confusedly looked at me
+                </p>
+                <img class="pagecontentimg1" src="../../3 Images/felix.png" />
+                <p>
+                    <b>“How come your potion taste different from the others? I can distinctly taste the bicorn horn and the mandrake? They’re not overcooked and stand on their own.” </b>
+                </p>
+                <p>
+                    <b>“Yes, professor. I saw that some of the instructions are wrong and may sabotage the herbs and ingredients of the potion. So, I made this potion and followed my instincts.” </b>
+                    I confidently replied
+                </p>
+                <img class="pagecontentimg2" src="../../3 Images/snapeap.png" />
+                <p>
+                    <b>“Classed is now dismissed. No one except Lestrange had the accurate copy of the potion I asked you to make. Now leave.” </b>He silently contemplated and announced.
+                </p>
+                <p>
+                    I was cleaning up my work space when he approached me
+                </p>
+                <p>
+                    <b>
+                        “Beatrix Lestrange, you are very talented in potion making. You know by heart how to treat the herbs and the potions whole-heartedly. Marvelous indeed. Here please accept the reward I bestow upon you.
+                        The Felix Felicis potion. Congratulations.”
+                    </b> He patted my shoulder and left.
+                </p>
+            </div>
+        </section>
+        <!---------------------- TULOOOOY MO DITOOOOO ---------------------------->
+        <section class="choicesection">
+            <h1>Click and Accept the Necklace</h1>
+            <div class="choice">
+                <div class="choicecol">
+                    <h2>The Felix Felicis Necklace, a remembrance of your creativeness & victory. </h2>
+                    <a href="../../1 Pages/3 Hufflepuff/Hufflepuff.html"><img src="../../3 Images/hpnecklace.png" /></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <audio id="bgsong">
+        <source src="../../4 Audio/ASMR - Snape's Potions Class - (Harry Potter ambience).mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var bgsong = document.getElementById("bgsong");
+        var icon = document.getElementById("volIcon");
+        icon.onclick = function () {
+            if (bgsong.paused) {
+                bgsong.play();
+                volIcon.src = "../../3 Images/pause.png";
+            }
+            else {
+                bgsong.pause();
+                volIcon.src = "../../3 Images/play.png"
+            }
+        }
+    </script>
+</body>
+</html>

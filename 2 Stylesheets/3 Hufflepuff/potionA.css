@@ -1,0 +1,202 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------Fonts Used--------------------*/
+@font-face {
+    font-family: 'harry potter';
+    src: url('../../5 Fonts/HARRYP__.TTF');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'crimes of grindelwald';
+    src: url('../../5 Fonts/Crimes of Grindelwald.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'wizard';
+    src: url('../../5 Fonts/purple-3.ttf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'hp icons';
+    src: url('../../5 Fonts/harry_potter_and_the_dingbat_font.TTF');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/*--------------------Transitions-----------------------*/
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
+
+/*---------------------------------------Home Page----------------------------------------*/
+/* CSS design for Header */
+.header {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../../3 Images/potion.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    color: #f2f3f7;
+    animation: transitionIn 0.75s;
+}
+nav {
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.chaptertitle{
+    margin-left: 32%;
+    position: absolute;
+}
+.chaptertitle p {
+    line-height: 28px;
+    font-family: wizard;
+    font-size: 45px;
+    color: #f2f3f7;
+    text-shadow: -2px 2px 2px black;
+    text-align: left;
+}
+.pbutton img {
+    float: right;
+    margin-right: 15%;
+    padding: 10px 0px;
+    float: right;
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+}
+.homebutton img {
+    padding: 10px 20px;
+    float: left;
+    width: 220px;
+    height: auto;
+    margin-left: 15%;
+}
+.pagecontent {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient( transparent 12%, currentColor 30%, currentColor 70%, transparent 95% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+    padding: 0 5px 10px 0px;
+    color: #f2f3f7;
+}
+.pagecontentletter {
+    float: left;
+    width: 250px;
+    padding: 0 10px 0 0;
+}
+.pagecontent video {
+    align-content: center;
+    margin: 1% 30%;
+}
+.pagecontent p{
+    line-height: 30px;
+    margin: 10px 0;
+    font-size: 28px;
+    font-family: wizard;
+    color: transparent;
+}
+.pagecontentimg {
+    width: 350px;
+    padding: 0 10px 0 0;
+    float: left;
+}
+.pagecontentimg1 {
+    width: 200px;
+    padding: 0 10px 0 0;
+    float: right;
+}
+.pagecontentimg2 {
+    width: 250px;
+    padding: 0 10px 0 0;
+    float: left;
+}
+.pagecontentxt {
+    text-align: justify;
+}
+
+/*---------------------------CHOICE SECTION----------------------*/
+.choicesection {
+    background-color: transparent;
+    height: 650px;
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+}
+.choicesection h1{
+    margin-top: 10%;
+    padding: 20px 0 10px 0;
+    color: khaki;
+    font-weight: normal;
+    font-family: 'crimes of grindelwald';
+    font-size: 35px;
+    text-align: center;
+    text-shadow: -2px 2px 2px black;
+}
+.choice {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20%;
+}
+.choicecol {
+    background-color: transparent;
+    align-content: center;
+    width: 450px;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: rgba(0,0,0,0.6);
+}
+.choicecol:hover {
+    box-shadow: none;
+}
+.choicecol h2{
+    font-family: wizard;
+    font-size: 20px;
+    color: #f2f3f7;
+    text-align: center;
+    text-shadow: -2px 2px 2px black;
+}
+.choicecol img {
+    width: 90%;
+    padding-left: 50px;
+    display: block;
+    position: relative;
+}
